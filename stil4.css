@@ -21,7 +21,7 @@ p {
 	
 .pozadina { 
 	background-size: cover;
-	background-image: url("../sve moje fotografije/slikaa2.jpg");
+	background-image: url("slikaa2.jpg");
 }
 .linkovi {
 	display: flex;

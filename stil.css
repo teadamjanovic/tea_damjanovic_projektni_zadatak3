@@ -2,7 +2,7 @@
 /* CSS Document */
 @font-face {
     font-family: 'Tea Damjanovic';
-    src: url("../TeaDamjanovic (1).ttf") format('opentype');
+    src: url("TeaDamjanovic.ttf") format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -46,7 +46,7 @@ h2 {
 	
 }
 .pozadina { 
-	background-image: url("../sve moje fotografije/slikaa2.jpg");
+	background-image: url("slikaa2.jpg");
 	background-size: cover;
  
 }
