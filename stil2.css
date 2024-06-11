@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+p {
+    color: #333;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: bold;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+    opacity: 0.9;
+    width: 90%;
+
+}
+   
+
+.paragraf {
+    color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pozadina { 
+	background-image: url("../sve moje fotografije/slikaa2.jpg");
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+}
+.linkovi {
+	display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+ul { 
+	margin: 0;
+	padding: 0; 
+	list-style: none; 
+	text-align: center;
+}
+
+li { 
+	display: inline-block; 
+	position: relative; 
+	margin: 0 20px; 
+}
+
+a {
+	color: #333;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	padding: 15px 20px;
+	border-radius: 25px; 
+	background-color: transparent; 
+	position: relative;
+}
+
+a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+ 	left: 0;
+	border: 2px solid #333; 
+	border-radius: 25px; 
+	transition: transform 0.3s ease;
+	z-index: -1; 
+}
+
+a:hover:before {
+	transform: scale(1.1); 
+        
+}
+
+.con {
+	max-width: 1224px;
+	width: 90%;
+	margin: 40px auto;
+}
+
+.fg {
+	display: flex;
+	gap: 20px;
+ }
+
+.odjeljak {
+ 	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.slika img {
+	 width: 100%;
+	height: auto;
+	border-radius: 5px;
+	object-fit: cover;
+}
+
+h5 {
+	color: #333;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	line-height: 1.6;
+	font-weight: bold;
+	padding: 20px;
+	text-align: justify;
+	margin-top: 20px;
+  	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	background-color: #f2f2f2;
+	opacity: 0.9;
+	width: 90%;
+	max-width: 800px;
+}
+
+.sredina { 
+	text-align: center;
+}
+
+iframe {
+	display: block;
+	margin: 20px auto;
+        }
